@@ -140,7 +140,10 @@ body {
     transition: transform .5s, -webkit-transform .5s;
 }
 
-    .memory-card:active {
+    .memory-card:link,
+    .memory-card:visited,
+    .memory-card:hover,
+    .memory-card:active{
         -webkit-transform: scale(.97);
             -ms-transform: scale(.97);
                 transform: scale(.97);
